@@ -1,8 +1,8 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
-import { Course } from 'src/interfaces/courseInterface';
-import { courseDTO } from 'src/course/courseDTO';
+import { Course } from 'src/interfacesDocument/courseDocument';
+import { courseDTO } from 'src/dto/courseDTO';
 
 
 @Injectable()

@@ -8,4 +8,4 @@ export const CourseSchema = new mongoose.Schema({
     ranking: String,
     posicaoRanking: String,
     urlFotoJogador: String,
-}, {timestamps: true, collection: 'teste'});
+}, {timestamps: true, collection: 'Course'});
